@@ -18,7 +18,7 @@ Article.destroy_all
 two_days_ago = (Date.today - 2).iso8601
 
 response = RestClient.get(
-    "http://newsapi.org/v2/everything?q=from=#{Date.today}&to=2020-03-21&language=en&pageSize=100&apiKey=33d9acb0b508450cb16344a38197e3e7")
+    "http://newsapi.org/v2/everything?q=from=#{Date.today}&to=#{two_days_ago}&language=en&pageSize=100&apiKey=33d9acb0b508450cb16344a38197e3e7")
  
     result = JSON.parse(response)
     
