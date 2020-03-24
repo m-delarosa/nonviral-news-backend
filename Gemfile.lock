@@ -63,6 +63,7 @@ GEM
     coderay (1.1.2)
     concurrent-ruby (1.1.6)
     crass (1.0.6)
+    date (2.0.0)
     domain_name (0.5.20190701)
       unf (>= 0.0.5, < 1.0.0)
     erubi (1.9.0)
@@ -174,6 +175,7 @@ PLATFORMS
 DEPENDENCIES
   bootsnap (>= 1.4.2)
   byebug
+  date
   listen (>= 3.0.5, < 3.2)
   pry
   puma (~> 4.1)

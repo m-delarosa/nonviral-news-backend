@@ -1,5 +1,6 @@
 require 'rest-client'
 # require 'pry'
+require 'date'
 
 Article.destroy_all
 
@@ -13,8 +14,11 @@ Article.destroy_all
 #     published_date: "2020-03-17T12:38:53Z"
 #     )
 
+
+two_days_ago = (Date.today - 2).iso8601
+
 response = RestClient.get(
-    "http://newsapi.org/v2/everything?q=from=2020-03-23&to=2020-03-21&apiKey=33d9acb0b508450cb16344a38197e3e7")
+    "http://newsapi.org/v2/everything?q=from=#{Date.today}&to=2020-03-21&language=en&pageSize=100&apiKey=33d9acb0b508450cb16344a38197e3e7")
  
     result = JSON.parse(response)
     
