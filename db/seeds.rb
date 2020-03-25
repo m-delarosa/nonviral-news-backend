@@ -24,13 +24,18 @@ response = RestClient.get(
     
     result['articles'].each do |article|
 
-     Article.create(
-     source: article['source']['name'],
-     source_url: article['url'],
-     url_image: article['urlToImage'],
-     author: article['author'],
-     title: article['title'],
-     description: article['description'],
-     published_date: article['publishedAt'][/[^T]+/]
-     )
+    corona_test = article['description'].downcase.include? "corona"
+    
+    if corona_test === false
+
+    Article.create(
+    source: article['source']['name'],
+    source_url: article['url'],
+    url_image: article['urlToImage'],
+    author: article['author'],
+    title: article['title'],
+    description: article['description'],
+    published_date: article['publishedAt'][/[^T]+/]
+    )
+    end
  end
