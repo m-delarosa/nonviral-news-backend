@@ -18,7 +18,7 @@ Article.destroy_all
 two_days_ago = (Date.today - 2).iso8601
 
 response = RestClient.get(
-    "http://newsapi.org/v2/everything?q=from=#{Date.today}&to=#{two_days_ago}&language=en&pageSize=100&apiKey=33d9acb0b508450cb16344a38197e3e7")
+    "http://newsapi.org/v2/everything?q=from=#{Date.today}&to=#{two_days_ago}&language=en&pageSize=20&apiKey=33d9acb0b508450cb16344a38197e3e7")
  
     result = JSON.parse(response)
     
@@ -32,7 +32,7 @@ response = RestClient.get(
     coronavirus_test_title = article['title'].downcase.include? "coronavirus"
     covid_test_title = article['title'].downcase.include? "covid-19"
     
-if !corona_test && !coronavirus_test && !covid_test && !corona_test_title && !coronavirus_test_title && !covid_test_title
+if !corona_test && !coronavirus_test && !covid_test && !corona_test_title && !coronavirus_test_title && !covid_test_title && article['urlToImage']
 
         Article.create(
             source: article['source']['name'],

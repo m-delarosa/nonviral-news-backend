@@ -2035,3 +2035,1420 @@ Processing by ArticlesController#index as */*
 Completed 200 OK in 54ms (Views: 53.0ms | ActiveRecord: 0.9ms | Allocations: 16766)
 
 
+Started GET "/articles" for ::1 at 2020-03-25 21:47:57 -0600
+  [1m[35m (2.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (5.4ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 159ms (Views: 143.0ms | ActiveRecord: 11.2ms | Allocations: 23827)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 21:47:59 -0600
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.9ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 66ms (Views: 64.4ms | ActiveRecord: 0.9ms | Allocations: 16752)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 21:48:28 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (3.5ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 202ms (Views: 197.6ms | ActiveRecord: 3.5ms | Allocations: 16755)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 21:48:51 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (4.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 206ms (Views: 201.5ms | ActiveRecord: 4.1ms | Allocations: 16757)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 21:48:52 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (1.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 48ms (Views: 46.3ms | ActiveRecord: 1.2ms | Allocations: 16737)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 21:49:38 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (1.0ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 75ms (Views: 73.3ms | ActiveRecord: 1.0ms | Allocations: 16754)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 21:50:48 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (1.0ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 67ms (Views: 66.1ms | ActiveRecord: 1.0ms | Allocations: 16737)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 21:51:37 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.8ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 37ms (Views: 36.3ms | ActiveRecord: 0.8ms | Allocations: 16737)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 21:51:38 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (1.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 42ms (Views: 40.3ms | ActiveRecord: 1.1ms | Allocations: 16737)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 21:52:52 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.8ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 144ms (Views: 142.4ms | ActiveRecord: 0.8ms | Allocations: 16737)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 21:53:04 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.7ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 81ms (Views: 80.0ms | ActiveRecord: 0.7ms | Allocations: 16737)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 21:53:56 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (1.0ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 72ms (Views: 70.4ms | ActiveRecord: 1.0ms | Allocations: 16737)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 21:54:30 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.6ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 237ms (Views: 236.0ms | ActiveRecord: 0.6ms | Allocations: 16740)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 21:55:15 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (1.0ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 88ms (Views: 86.2ms | ActiveRecord: 1.0ms | Allocations: 16737)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 21:55:48 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (1.4ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 70ms (Views: 68.4ms | ActiveRecord: 1.4ms | Allocations: 16737)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 21:56:11 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (1.4ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 33ms (Views: 31.7ms | ActiveRecord: 1.4ms | Allocations: 16737)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 21:56:59 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 95ms (Views: 94.4ms | ActiveRecord: 0.5ms | Allocations: 16737)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 21:57:11 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (5.0ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 101ms (Views: 96.2ms | ActiveRecord: 5.0ms | Allocations: 16737)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 21:57:36 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.7ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 59ms (Views: 58.1ms | ActiveRecord: 0.7ms | Allocations: 16737)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 21:58:48 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.6ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 63ms (Views: 62.6ms | ActiveRecord: 0.6ms | Allocations: 16737)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 21:59:25 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (3.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 35ms (Views: 31.5ms | ActiveRecord: 3.2ms | Allocations: 16737)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 22:00:17 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.8ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 108ms (Views: 106.7ms | ActiveRecord: 0.8ms | Allocations: 16740)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 22:00:34 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.7ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 45ms (Views: 44.1ms | ActiveRecord: 0.7ms | Allocations: 16737)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 22:01:47 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.7ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 99ms (Views: 97.7ms | ActiveRecord: 0.7ms | Allocations: 16737)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 22:03:07 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.7ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 116ms (Views: 114.6ms | ActiveRecord: 0.7ms | Allocations: 16737)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 22:03:42 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (3.5ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 98ms (Views: 94.3ms | ActiveRecord: 3.5ms | Allocations: 16737)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 22:04:37 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (1.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 40ms (Views: 37.3ms | ActiveRecord: 1.1ms | Allocations: 16737)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 22:04:55 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 23ms (Views: 21.9ms | ActiveRecord: 0.5ms | Allocations: 16737)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 22:05:34 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (1.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 34ms (Views: 32.6ms | ActiveRecord: 1.1ms | Allocations: 16737)
+
+
+  [1m[35m (1.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mArticle Load (4.6ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.9ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 275]]
+  [1m[35m (6.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.5ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 276]]
+  [1m[35m (1.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.4ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 277]]
+  [1m[35m (3.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (1.2ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 278]]
+  [1m[35m (1.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.7ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 279]]
+  [1m[35m (4.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (1.7ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 280]]
+  [1m[35m (3.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.8ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 281]]
+  [1m[35m (2.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (5.5ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 282]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.7ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 283]]
+  [1m[35m (1.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.7ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 284]]
+  [1m[35m (7.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.7ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 285]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (1.5ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 286]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (1.9ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 287]]
+  [1m[35m (6.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (1.8ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 288]]
+  [1m[35m (1.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (1.1ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 289]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.9ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 290]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.5ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 291]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.6ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 292]]
+  [1m[35m (3.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (1.2ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 293]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.9ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 294]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.7ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 295]]
+  [1m[35m (1.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.5ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 296]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (2.0ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 297]]
+  [1m[35m (1.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (1.5ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 298]]
+  [1m[35m (1.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (2.9ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 299]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.9ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 300]]
+  [1m[35m (4.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.6ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 301]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.6ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 302]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.8ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 303]]
+  [1m[35m (15.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (2.5ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 304]]
+  [1m[35m (1.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (1.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.6ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 305]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.7ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 306]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.7ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 307]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.9ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 308]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (3.2ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 309]]
+  [1m[35m (9.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.7ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 310]]
+  [1m[35m (11.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.5ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 311]]
+  [1m[35m (3.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.8ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 312]]
+  [1m[35m (1.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.8ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 313]]
+  [1m[35m (22.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.5ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 314]]
+  [1m[35m (2.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.5ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 315]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (2.8ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 316]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.9ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 317]]
+  [1m[35m (1.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (5.7ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 318]]
+  [1m[35m (6.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.9ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 319]]
+  [1m[35m (5.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (5.9ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 320]]
+  [1m[35m (4.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.5ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 321]]
+  [1m[35m (3.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.8ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.8ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 322]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.5ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 323]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.5ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 324]]
+  [1m[35m (2.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (1.2ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 325]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.6ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 326]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.5ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 327]]
+  [1m[35m (5.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.5ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 328]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.5ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 329]]
+  [1m[35m (2.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.4ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 330]]
+  [1m[35m (6.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.5ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 331]]
+  [1m[35m (2.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (1.0ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 332]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (4.2ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 333]]
+  [1m[35m (3.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.5ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 334]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.5ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 335]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.7ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 336]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (1.1ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 337]]
+  [1m[35m (2.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (1.7ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 338]]
+  [1m[35m (3.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (12.8ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 339]]
+  [1m[35m (7.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (1.4ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 340]]
+  [1m[35m (4.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.6ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 341]]
+  [1m[35m (5.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (3.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (1.3ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 342]]
+  [1m[35m (157.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (11.9ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 343]]
+  [1m[35m (2.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.8ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 344]]
+  [1m[35m (2.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (1.1ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 345]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.5ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 346]]
+  [1m[35m (2.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (1.6ms)[0m  [1m[32mINSERT INTO "articles" ("source", "source_url", "url_image", "author", "title", "description", "published_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["source", "Androidcentral.com"], ["source_url", "https://www.androidcentral.com/what-are-your-favorite-pixel-features"], ["url_image", "https://www.androidcentral.com/sites/androidcentral.com/files/styles/large/public/article_images/2019/10/pixel-4-xl-vs-3-xl-white-backs-2.jpg?itok=eH6iMnP9"], ["author", "Joe Maring"], ["title", "What are your favorite Pixel features?"], ["description", "Having a chat with the AC forums. To say that Google's Pixel phones aren't perfect shouldn't come as a surprise to anyone. While the Pixel lineup is something we look forward to every year, there's no doubt that Google tends to fall behind its competitors in …"], ["published_date", "2020-03-20"], ["created_at", "2020-03-26 04:05:44.017378"], ["updated_at", "2020-03-26 04:05:44.017378"]]
+  [1m[35m (2.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.9ms)[0m  [1m[32mINSERT INTO "articles" ("source", "source_url", "url_image", "author", "title", "description", "published_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["source", "9to5mac.com"], ["source_url", "https://9to5mac.com/2020/03/20/9to5mac-happy-hour-269/"], ["url_image", "https://9to5mac.com/wp-content/uploads/sites/6/2018/04/9to5mac-happy-hour-lead1.jpg?quality=82&strip=all"], ["author", "Zac Hall"], ["title", "9to5Mac Happy Hour 269: 2020 MacBook Air, iPad Pro with trackpad, iOS 13.4"], ["description", "Benjamin and Zac unpack new releases from Apple including a cheaper and improved MacBook Air, Mac mini storage upgrades, the new 2020 iPad Pro model, iOS 13.4 and trackpad support coming to iPad, the new Magic Keyboard coming in May, Beats Powerbeats debut, a…"], ["published_date", "2020-03-20"], ["created_at", "2020-03-26 04:05:44.035947"], ["updated_at", "2020-03-26 04:05:44.035947"]]
+  [1m[35m (3.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.9ms)[0m  [1m[32mINSERT INTO "articles" ("source", "source_url", "author", "title", "description", "published_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["source", "The Next Web"], ["source_url", "https://thenextweb.com/neural/2020/02/25/defining-humanlike-intelligence-and-entrusting-it-with-our-lives-explained-by-an-ai-researcher/"], ["author", "Cara Curtis"], ["title", "Defining humanlike intelligence and entrusting it with our lives, explained by an AI researcher"], ["description", "TNW Answers is a live Q&A platform where we invite interesting people in tech who are much smarter than us to answer questions from TNW readers and editors for an hour. Yesterday, Melanie Mitchell, the author of ‘Artificial Intelligence: A Guide for Thinking …"], ["published_date", "2020-02-25"], ["created_at", "2020-03-26 04:05:44.048215"], ["updated_at", "2020-03-26 04:05:44.048215"]]
+  [1m[35m (1.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.8ms)[0m  [1m[32mINSERT INTO "articles" ("source", "source_url", "url_image", "author", "title", "description", "published_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["source", "Detroitnews.com"], ["source_url", "https://www.detroitnews.com/story/entertainment/movies/2020/03/15/movie-ticket-sales-dive-coronavirus-covid/111428098/"], ["url_image", "https://www.gannett-cdn.com/presto/2019/11/19/PDTN/22d91e89-cf1c-430b-963c-1936e022c45b-tdndc5-6k71dazxogn4i08dbmp_original.jpg?crop=4255,2394,x0,y141&width=3200&height=1680&fit=bounds"], ["author", "Jake Coyle"], ["title", "Movie ticket sales dive at box office; lowest turnout in 20 years - The Detroit News"], ["description", "Not since 2000 has weekend box office revenue been so low, according Comscore, when $54.5 million in tickets were sold on a quiet September weekend"], ["published_date", "2020-03-16"], ["created_at", "2020-03-26 04:05:44.057565"], ["updated_at", "2020-03-26 04:05:44.057565"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (1.8ms)[0m  [1m[32mINSERT INTO "articles" ("source", "source_url", "url_image", "author", "title", "description", "published_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["source", "USA Today"], ["source_url", "https://www.usatoday.com/story/opinion/2020/03/10/pardon-commuting-sentence-medicare-fraudster-judith-negron-donald-trump-column/4994494002/"], ["url_image", "https://www.gannett-cdn.com/presto/2020/03/09/USAT/2054b1bd-c395-4e91-b9a9-5486522e2f2e-AP_Trump_Clemency.JPG?crop=3601,2026,x0,y88&width=3200&height=1680&fit=bounds"], ["author", "USA TODAY, Paul E. Pelletier, Opinion contributor"], ["title", "Commuting the sentence of a Medicare fraudster? An unwise move by President Trump."], ["description", "Judith Negron took advantage of the elderly and stole millions of dollars from taxpayers. Should she get a second chance?"], ["published_date", "2020-03-10"], ["created_at", "2020-03-26 04:05:44.066921"], ["updated_at", "2020-03-26 04:05:44.066921"]]
+  [1m[35m (2.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.8ms)[0m  [1m[32mINSERT INTO "articles" ("source", "source_url", "url_image", "author", "title", "description", "published_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["source", "USA Today"], ["source_url", "https://www.usatoday.com/story/news/weather/2020/03/03/nashville-tornado-what-we-know-deadly-storms-hit-tennessee/4937297002/"], ["url_image", "https://www.gannett-cdn.com/presto/2020/03/03/USAT/19eabbf5-281f-4ed2-85f9-705d669eee53-XXX__LM55393.JPG?crop=3511,1975,x0,y173&width=3200&height=1680&fit=bounds"], ["author", "USA TODAY, N'dea Yancey-Bragg, Jason Gonzales, Juan Buitrago, Adam Tamburin and Joel Shannon, USA TODAY"], ["title", "What we know about the tornadoes that killed at least 22 people in Nashville, Middle Tennessee"], ["description", "Tornadoes killed multiple people in Tennessee as violent storms roared through the state late Monday and early Tuesday morning."], ["published_date", "2020-03-03"], ["created_at", "2020-03-26 04:05:44.078962"], ["updated_at", "2020-03-26 04:05:44.078962"]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (4.9ms)[0m  [1m[32mINSERT INTO "articles" ("source", "source_url", "url_image", "author", "title", "description", "published_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["source", "Politico"], ["source_url", "https://www.politico.com/news/2020/03/10/judges-rule-democrats-should-get-mueller-evidence-125008"], ["url_image", "https://static.politico.com/62/a5/814e9ab9428390ffdf7a7206cedf/200310-bobby-three-sticks-gty-773.jpg"], ["author", "Josh Gerstein"], ["title", "Judges rule Democrats should get Mueller evidence"], ["description", "It's a major win for House Democrats seeking to obtain more information from the Russia probe."], ["published_date", "2020-03-10"], ["created_at", "2020-03-26 04:05:44.091594"], ["updated_at", "2020-03-26 04:05:44.091594"]]
+  [1m[35m (2.9ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/articles" for ::1 at 2020-03-25 22:05:53 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.4ms | Allocations: 2311)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 22:06:11 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.2ms | Allocations: 2310)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 22:07:27 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.2ms | Allocations: 2310)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 22:08:12 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 3.8ms | ActiveRecord: 0.2ms | Allocations: 2310)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 22:09:01 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.3ms | Allocations: 2310)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 22:09:55 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 5ms (Views: 3.9ms | ActiveRecord: 0.3ms | Allocations: 2310)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 22:10:05 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 8ms (Views: 7.9ms | ActiveRecord: 0.3ms | Allocations: 2310)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 22:10:13 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 7ms (Views: 6.5ms | ActiveRecord: 0.5ms | Allocations: 2310)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 22:10:29 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 13ms (Views: 12.2ms | ActiveRecord: 0.3ms | Allocations: 2310)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 22:10:50 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.5ms | Allocations: 2310)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 22:11:21 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 4.0ms | ActiveRecord: 0.2ms | Allocations: 2310)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 22:12:02 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.2ms | Allocations: 2310)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 22:12:26 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.3ms | Allocations: 2310)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 22:12:40 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 8ms (Views: 6.9ms | ActiveRecord: 0.2ms | Allocations: 2310)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 22:12:47 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 11ms (Views: 10.3ms | ActiveRecord: 0.2ms | Allocations: 2310)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 22:16:21 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 6ms (Views: 5.5ms | ActiveRecord: 0.2ms | Allocations: 2310)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 22:16:44 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 7ms (Views: 6.2ms | ActiveRecord: 0.3ms | Allocations: 2310)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 22:17:48 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.6ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 7ms (Views: 5.9ms | ActiveRecord: 0.6ms | Allocations: 2310)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 22:18:03 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.7ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 6ms (Views: 4.7ms | ActiveRecord: 0.7ms | Allocations: 2310)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 22:19:01 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 3.7ms | ActiveRecord: 0.2ms | Allocations: 2310)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 22:19:15 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 8ms (Views: 6.9ms | ActiveRecord: 0.4ms | Allocations: 2310)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 22:19:22 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 6ms (Views: 5.3ms | ActiveRecord: 0.3ms | Allocations: 2310)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 22:19:31 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 7ms (Views: 6.8ms | ActiveRecord: 0.2ms | Allocations: 2310)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 22:19:39 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.2ms | Allocations: 2310)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 22:20:09 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 5ms (Views: 4.8ms | ActiveRecord: 0.3ms | Allocations: 2310)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 22:20:36 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 6ms (Views: 4.7ms | ActiveRecord: 0.3ms | Allocations: 2310)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 22:21:02 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.2ms | Allocations: 2310)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 22:21:17 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.2ms | Allocations: 2310)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 22:23:03 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 5ms (Views: 4.8ms | ActiveRecord: 0.3ms | Allocations: 2310)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 22:23:52 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 6ms (Views: 5.5ms | ActiveRecord: 0.2ms | Allocations: 2310)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 22:24:18 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.3ms | Allocations: 2310)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 22:24:50 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 7ms (Views: 5.8ms | ActiveRecord: 0.4ms | Allocations: 2310)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 22:25:06 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.3ms | Allocations: 2310)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 22:26:12 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 6ms (Views: 5.2ms | ActiveRecord: 0.3ms | Allocations: 2310)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 22:28:08 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.3ms | Allocations: 2310)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 22:28:23 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 5ms (Views: 4.7ms | ActiveRecord: 0.2ms | Allocations: 2310)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 22:29:05 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.2ms | Allocations: 2313)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 22:29:16 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.4ms | Allocations: 2310)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 22:30:46 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 6ms (Views: 5.7ms | ActiveRecord: 0.2ms | Allocations: 2310)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 22:31:00 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 6ms (Views: 6.0ms | ActiveRecord: 0.2ms | Allocations: 2310)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 22:31:40 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 7ms (Views: 6.7ms | ActiveRecord: 0.2ms | Allocations: 2310)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 22:32:01 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 6ms (Views: 5.2ms | ActiveRecord: 0.4ms | Allocations: 2310)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 22:32:14 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 6ms (Views: 5.7ms | ActiveRecord: 0.3ms | Allocations: 2310)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 22:33:43 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 16ms (Views: 7.8ms | ActiveRecord: 0.3ms | Allocations: 2310)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 22:36:19 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.3ms | Allocations: 2310)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 22:36:39 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.2ms | Allocations: 2310)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 22:37:48 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 6ms (Views: 4.9ms | ActiveRecord: 0.4ms | Allocations: 2310)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 22:39:36 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.8ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 20ms (Views: 15.6ms | ActiveRecord: 0.8ms | Allocations: 2310)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 22:39:37 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 3.7ms | ActiveRecord: 0.2ms | Allocations: 2310)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 22:40:25 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 10ms (Views: 8.4ms | ActiveRecord: 0.4ms | Allocations: 2310)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 22:40:54 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 6ms (Views: 5.5ms | ActiveRecord: 0.3ms | Allocations: 2310)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 22:41:53 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 3.0ms | ActiveRecord: 0.2ms | Allocations: 2310)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 22:42:53 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 7ms (Views: 6.1ms | ActiveRecord: 0.3ms | Allocations: 2310)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 22:43:23 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 6ms (Views: 5.1ms | ActiveRecord: 0.3ms | Allocations: 2310)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 22:43:45 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 6ms (Views: 5.2ms | ActiveRecord: 0.2ms | Allocations: 2310)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 22:45:01 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.2ms | Allocations: 2310)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 22:45:28 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 5ms (Views: 4.8ms | ActiveRecord: 0.2ms | Allocations: 2310)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 22:45:42 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.2ms | Allocations: 2310)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 22:46:09 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 5ms (Views: 4.8ms | ActiveRecord: 0.2ms | Allocations: 2310)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 22:47:12 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.2ms | Allocations: 2310)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 22:47:55 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 6ms (Views: 5.4ms | ActiveRecord: 0.2ms | Allocations: 2310)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 22:48:23 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 6ms (Views: 5.4ms | ActiveRecord: 0.4ms | Allocations: 2310)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 22:48:24 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.3ms | Allocations: 2310)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 22:49:19 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.3ms | Allocations: 2310)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 22:50:10 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 7ms (Views: 6.7ms | ActiveRecord: 0.4ms | Allocations: 2310)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 22:51:13 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 6ms (Views: 5.3ms | ActiveRecord: 0.3ms | Allocations: 2310)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 22:51:55 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 6ms (Views: 5.4ms | ActiveRecord: 0.4ms | Allocations: 2310)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 22:52:27 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 12ms (Views: 7.7ms | ActiveRecord: 0.2ms | Allocations: 2310)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 22:53:10 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 8ms (Views: 7.0ms | ActiveRecord: 0.3ms | Allocations: 2310)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 22:53:43 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 7ms (Views: 6.3ms | ActiveRecord: 0.5ms | Allocations: 2310)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 22:54:56 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 9ms (Views: 7.7ms | ActiveRecord: 0.4ms | Allocations: 2310)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 22:55:31 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 8ms (Views: 7.0ms | ActiveRecord: 0.2ms | Allocations: 2310)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 22:56:41 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 6ms (Views: 5.3ms | ActiveRecord: 0.5ms | Allocations: 2310)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 22:57:31 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.2ms | Allocations: 2310)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 22:58:17 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 6ms (Views: 5.4ms | ActiveRecord: 0.2ms | Allocations: 2310)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 22:59:21 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.2ms | Allocations: 2310)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 23:00:32 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 7ms (Views: 6.0ms | ActiveRecord: 0.3ms | Allocations: 2310)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 23:01:34 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 20ms (Views: 18.9ms | ActiveRecord: 0.5ms | Allocations: 2310)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 23:01:55 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (1.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 9ms (Views: 7.8ms | ActiveRecord: 1.1ms | Allocations: 2310)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 23:03:03 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.3ms | Allocations: 2310)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 23:03:33 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 6ms (Views: 5.9ms | ActiveRecord: 0.3ms | Allocations: 2310)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 23:04:03 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 8ms (Views: 6.6ms | ActiveRecord: 0.5ms | Allocations: 2310)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 23:05:36 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 6ms (Views: 5.6ms | ActiveRecord: 0.3ms | Allocations: 2310)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 23:06:01 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.4ms | Allocations: 2310)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 23:06:21 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.6ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 18ms (Views: 16.5ms | ActiveRecord: 0.6ms | Allocations: 2310)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 23:06:58 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.4ms | Allocations: 2310)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 23:07:28 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 194ms (Views: 193.8ms | ActiveRecord: 0.3ms | Allocations: 2313)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 23:08:31 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.4ms | Allocations: 2310)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 23:08:54 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.2ms | Allocations: 2310)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 23:09:01 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 6ms (Views: 5.2ms | ActiveRecord: 0.3ms | Allocations: 2310)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 23:09:48 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.2ms | Allocations: 2310)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 23:10:11 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 9ms (Views: 8.6ms | ActiveRecord: 0.2ms | Allocations: 2310)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 23:10:27 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 3.8ms | ActiveRecord: 0.3ms | Allocations: 2310)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 23:10:48 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 5ms (Views: 4.9ms | ActiveRecord: 0.3ms | Allocations: 2310)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 23:11:08 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.2ms | Allocations: 2310)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 23:12:29 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 8ms (Views: 6.8ms | ActiveRecord: 0.3ms | Allocations: 2310)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 23:13:23 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 5ms (Views: 4.8ms | ActiveRecord: 0.2ms | Allocations: 2310)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 23:14:29 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 6ms (Views: 5.1ms | ActiveRecord: 0.3ms | Allocations: 2310)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 23:14:36 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 7ms (Views: 6.0ms | ActiveRecord: 0.2ms | Allocations: 2310)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 23:15:12 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 9ms (Views: 8.9ms | ActiveRecord: 0.2ms | Allocations: 2310)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 23:15:46 -0600
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 6ms (Views: 5.7ms | ActiveRecord: 0.2ms | Allocations: 2308)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 23:19:43 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 7ms (Views: 6.1ms | ActiveRecord: 0.3ms | Allocations: 2310)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 23:25:16 -0600
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 13ms (Views: 10.9ms | ActiveRecord: 0.4ms | Allocations: 2338)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 23:26:03 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 11ms (Views: 10.4ms | ActiveRecord: 0.4ms | Allocations: 2310)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 23:28:09 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 6ms (Views: 4.6ms | ActiveRecord: 0.3ms | Allocations: 2310)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 23:28:56 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.6ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 11ms (Views: 10.5ms | ActiveRecord: 0.6ms | Allocations: 2310)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 23:29:27 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 7ms (Views: 6.7ms | ActiveRecord: 0.2ms | Allocations: 2310)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 23:29:54 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.3ms | Allocations: 2310)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 23:30:50 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 8ms (Views: 6.9ms | ActiveRecord: 0.4ms | Allocations: 2310)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 23:31:06 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 8ms (Views: 6.7ms | ActiveRecord: 0.4ms | Allocations: 2310)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 23:32:33 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 6ms (Views: 5.8ms | ActiveRecord: 0.3ms | Allocations: 2310)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 23:32:41 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 6ms (Views: 5.6ms | ActiveRecord: 0.4ms | Allocations: 2310)
+
+
+Started GET "/articles" for ::1 at 2020-03-25 23:32:52 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.2ms | Allocations: 2310)
+
+
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.7ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 347]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.4ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 348]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.4ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 349]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.5ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 350]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.4ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 351]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.4ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 352]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.3ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 353]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/articles" for ::1 at 2020-03-25 23:37:21 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.6ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 13ms (Views: 8.2ms | ActiveRecord: 0.6ms | Allocations: 743)
+
+
+  [1m[35m (2.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.7ms)[0m  [1m[32mINSERT INTO "articles" ("source", "source_url", "url_image", "author", "title", "description", "published_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["source", "Androidcentral.com"], ["source_url", "https://www.androidcentral.com/what-are-your-favorite-pixel-features"], ["url_image", "https://www.androidcentral.com/sites/androidcentral.com/files/styles/large/public/article_images/2019/10/pixel-4-xl-vs-3-xl-white-backs-2.jpg?itok=eH6iMnP9"], ["author", "Joe Maring"], ["title", "What are your favorite Pixel features?"], ["description", "Having a chat with the AC forums. To say that Google's Pixel phones aren't perfect shouldn't come as a surprise to anyone. While the Pixel lineup is something we look forward to every year, there's no doubt that Google tends to fall behind its competitors in …"], ["published_date", "2020-03-20"], ["created_at", "2020-03-26 05:39:28.503232"], ["updated_at", "2020-03-26 05:39:28.503232"]]
+  [1m[35m (2.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.6ms)[0m  [1m[32mINSERT INTO "articles" ("source", "source_url", "url_image", "author", "title", "description", "published_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["source", "9to5mac.com"], ["source_url", "https://9to5mac.com/2020/03/20/9to5mac-happy-hour-269/"], ["url_image", "https://9to5mac.com/wp-content/uploads/sites/6/2018/04/9to5mac-happy-hour-lead1.jpg?quality=82&strip=all"], ["author", "Zac Hall"], ["title", "9to5Mac Happy Hour 269: 2020 MacBook Air, iPad Pro with trackpad, iOS 13.4"], ["description", "Benjamin and Zac unpack new releases from Apple including a cheaper and improved MacBook Air, Mac mini storage upgrades, the new 2020 iPad Pro model, iOS 13.4 and trackpad support coming to iPad, the new Magic Keyboard coming in May, Beats Powerbeats debut, a…"], ["published_date", "2020-03-20"], ["created_at", "2020-03-26 05:39:28.511545"], ["updated_at", "2020-03-26 05:39:28.511545"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.4ms)[0m  [1m[32mINSERT INTO "articles" ("source", "source_url", "author", "title", "description", "published_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["source", "The Next Web"], ["source_url", "https://thenextweb.com/neural/2020/02/25/defining-humanlike-intelligence-and-entrusting-it-with-our-lives-explained-by-an-ai-researcher/"], ["author", "Cara Curtis"], ["title", "Defining humanlike intelligence and entrusting it with our lives, explained by an AI researcher"], ["description", "TNW Answers is a live Q&A platform where we invite interesting people in tech who are much smarter than us to answer questions from TNW readers and editors for an hour. Yesterday, Melanie Mitchell, the author of ‘Artificial Intelligence: A Guide for Thinking …"], ["published_date", "2020-02-25"], ["created_at", "2020-03-26 05:39:28.517532"], ["updated_at", "2020-03-26 05:39:28.517532"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.4ms)[0m  [1m[32mINSERT INTO "articles" ("source", "source_url", "url_image", "author", "title", "description", "published_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["source", "Detroitnews.com"], ["source_url", "https://www.detroitnews.com/story/entertainment/movies/2020/03/15/movie-ticket-sales-dive-coronavirus-covid/111428098/"], ["url_image", "https://www.gannett-cdn.com/presto/2019/11/19/PDTN/22d91e89-cf1c-430b-963c-1936e022c45b-tdndc5-6k71dazxogn4i08dbmp_original.jpg?crop=4255,2394,x0,y141&width=3200&height=1680&fit=bounds"], ["author", "Jake Coyle"], ["title", "Movie ticket sales dive at box office; lowest turnout in 20 years - The Detroit News"], ["description", "Not since 2000 has weekend box office revenue been so low, according Comscore, when $54.5 million in tickets were sold on a quiet September weekend"], ["published_date", "2020-03-16"], ["created_at", "2020-03-26 05:39:28.523293"], ["updated_at", "2020-03-26 05:39:28.523293"]]
+  [1m[35m (1.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.5ms)[0m  [1m[32mINSERT INTO "articles" ("source", "source_url", "url_image", "author", "title", "description", "published_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["source", "USA Today"], ["source_url", "https://www.usatoday.com/story/opinion/2020/03/10/pardon-commuting-sentence-medicare-fraudster-judith-negron-donald-trump-column/4994494002/"], ["url_image", "https://www.gannett-cdn.com/presto/2020/03/09/USAT/2054b1bd-c395-4e91-b9a9-5486522e2f2e-AP_Trump_Clemency.JPG?crop=3601,2026,x0,y88&width=3200&height=1680&fit=bounds"], ["author", "USA TODAY, Paul E. Pelletier, Opinion contributor"], ["title", "Commuting the sentence of a Medicare fraudster? An unwise move by President Trump."], ["description", "Judith Negron took advantage of the elderly and stole millions of dollars from taxpayers. Should she get a second chance?"], ["published_date", "2020-03-10"], ["created_at", "2020-03-26 05:39:28.529273"], ["updated_at", "2020-03-26 05:39:28.529273"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.4ms)[0m  [1m[32mINSERT INTO "articles" ("source", "source_url", "url_image", "author", "title", "description", "published_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["source", "USA Today"], ["source_url", "https://www.usatoday.com/story/news/weather/2020/03/03/nashville-tornado-what-we-know-deadly-storms-hit-tennessee/4937297002/"], ["url_image", "https://www.gannett-cdn.com/presto/2020/03/03/USAT/19eabbf5-281f-4ed2-85f9-705d669eee53-XXX__LM55393.JPG?crop=3511,1975,x0,y173&width=3200&height=1680&fit=bounds"], ["author", "USA TODAY, N'dea Yancey-Bragg, Jason Gonzales, Juan Buitrago, Adam Tamburin and Joel Shannon, USA TODAY"], ["title", "What we know about the tornadoes that killed at least 22 people in Nashville, Middle Tennessee"], ["description", "Tornadoes killed multiple people in Tennessee as violent storms roared through the state late Monday and early Tuesday morning."], ["published_date", "2020-03-03"], ["created_at", "2020-03-26 05:39:28.534979"], ["updated_at", "2020-03-26 05:39:28.534979"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.8ms)[0m  [1m[32mINSERT INTO "articles" ("source", "source_url", "url_image", "author", "title", "description", "published_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["source", "Politico"], ["source_url", "https://www.politico.com/news/2020/03/10/judges-rule-democrats-should-get-mueller-evidence-125008"], ["url_image", "https://static.politico.com/62/a5/814e9ab9428390ffdf7a7206cedf/200310-bobby-three-sticks-gty-773.jpg"], ["author", "Josh Gerstein"], ["title", "Judges rule Democrats should get Mueller evidence"], ["description", "It's a major win for House Democrats seeking to obtain more information from the Russia probe."], ["published_date", "2020-03-10"], ["created_at", "2020-03-26 05:39:28.540520"], ["updated_at", "2020-03-26 05:39:28.540520"]]
+  [1m[35m (1.9ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/articles" for ::1 at 2020-03-25 23:39:38 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 10ms (Views: 9.7ms | ActiveRecord: 0.3ms | Allocations: 2310)
+
+
+  [1m[35m (1.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.6ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 354]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.4ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 355]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.5ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 356]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.7ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 357]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.4ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 358]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.3ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 359]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.4ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 360]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.6ms)[0m  [1m[32mINSERT INTO "articles" ("source", "source_url", "url_image", "author", "title", "description", "published_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["source", "Androidcentral.com"], ["source_url", "https://www.androidcentral.com/what-are-your-favorite-pixel-features"], ["url_image", "https://www.androidcentral.com/sites/androidcentral.com/files/styles/large/public/article_images/2019/10/pixel-4-xl-vs-3-xl-white-backs-2.jpg?itok=eH6iMnP9"], ["author", "Joe Maring"], ["title", "What are your favorite Pixel features?"], ["description", "Having a chat with the AC forums. To say that Google's Pixel phones aren't perfect shouldn't come as a surprise to anyone. While the Pixel lineup is something we look forward to every year, there's no doubt that Google tends to fall behind its competitors in …"], ["published_date", "2020-03-20"], ["created_at", "2020-03-26 05:40:24.179260"], ["updated_at", "2020-03-26 05:40:24.179260"]]
+  [1m[35m (3.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.4ms)[0m  [1m[32mINSERT INTO "articles" ("source", "source_url", "url_image", "author", "title", "description", "published_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["source", "9to5mac.com"], ["source_url", "https://9to5mac.com/2020/03/20/9to5mac-happy-hour-269/"], ["url_image", "https://9to5mac.com/wp-content/uploads/sites/6/2018/04/9to5mac-happy-hour-lead1.jpg?quality=82&strip=all"], ["author", "Zac Hall"], ["title", "9to5Mac Happy Hour 269: 2020 MacBook Air, iPad Pro with trackpad, iOS 13.4"], ["description", "Benjamin and Zac unpack new releases from Apple including a cheaper and improved MacBook Air, Mac mini storage upgrades, the new 2020 iPad Pro model, iOS 13.4 and trackpad support coming to iPad, the new Magic Keyboard coming in May, Beats Powerbeats debut, a…"], ["published_date", "2020-03-20"], ["created_at", "2020-03-26 05:40:24.188738"], ["updated_at", "2020-03-26 05:40:24.188738"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.5ms)[0m  [1m[32mINSERT INTO "articles" ("source", "source_url", "url_image", "author", "title", "description", "published_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["source", "Detroitnews.com"], ["source_url", "https://www.detroitnews.com/story/entertainment/movies/2020/03/15/movie-ticket-sales-dive-coronavirus-covid/111428098/"], ["url_image", "https://www.gannett-cdn.com/presto/2019/11/19/PDTN/22d91e89-cf1c-430b-963c-1936e022c45b-tdndc5-6k71dazxogn4i08dbmp_original.jpg?crop=4255,2394,x0,y141&width=3200&height=1680&fit=bounds"], ["author", "Jake Coyle"], ["title", "Movie ticket sales dive at box office; lowest turnout in 20 years - The Detroit News"], ["description", "Not since 2000 has weekend box office revenue been so low, according Comscore, when $54.5 million in tickets were sold on a quiet September weekend"], ["published_date", "2020-03-16"], ["created_at", "2020-03-26 05:40:24.195049"], ["updated_at", "2020-03-26 05:40:24.195049"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.4ms)[0m  [1m[32mINSERT INTO "articles" ("source", "source_url", "url_image", "author", "title", "description", "published_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["source", "USA Today"], ["source_url", "https://www.usatoday.com/story/opinion/2020/03/10/pardon-commuting-sentence-medicare-fraudster-judith-negron-donald-trump-column/4994494002/"], ["url_image", "https://www.gannett-cdn.com/presto/2020/03/09/USAT/2054b1bd-c395-4e91-b9a9-5486522e2f2e-AP_Trump_Clemency.JPG?crop=3601,2026,x0,y88&width=3200&height=1680&fit=bounds"], ["author", "USA TODAY, Paul E. Pelletier, Opinion contributor"], ["title", "Commuting the sentence of a Medicare fraudster? An unwise move by President Trump."], ["description", "Judith Negron took advantage of the elderly and stole millions of dollars from taxpayers. Should she get a second chance?"], ["published_date", "2020-03-10"], ["created_at", "2020-03-26 05:40:24.200920"], ["updated_at", "2020-03-26 05:40:24.200920"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.4ms)[0m  [1m[32mINSERT INTO "articles" ("source", "source_url", "url_image", "author", "title", "description", "published_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["source", "USA Today"], ["source_url", "https://www.usatoday.com/story/news/weather/2020/03/03/nashville-tornado-what-we-know-deadly-storms-hit-tennessee/4937297002/"], ["url_image", "https://www.gannett-cdn.com/presto/2020/03/03/USAT/19eabbf5-281f-4ed2-85f9-705d669eee53-XXX__LM55393.JPG?crop=3511,1975,x0,y173&width=3200&height=1680&fit=bounds"], ["author", "USA TODAY, N'dea Yancey-Bragg, Jason Gonzales, Juan Buitrago, Adam Tamburin and Joel Shannon, USA TODAY"], ["title", "What we know about the tornadoes that killed at least 22 people in Nashville, Middle Tennessee"], ["description", "Tornadoes killed multiple people in Tennessee as violent storms roared through the state late Monday and early Tuesday morning."], ["published_date", "2020-03-03"], ["created_at", "2020-03-26 05:40:24.207211"], ["updated_at", "2020-03-26 05:40:24.207211"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.6ms)[0m  [1m[32mINSERT INTO "articles" ("source", "source_url", "url_image", "author", "title", "description", "published_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["source", "Politico"], ["source_url", "https://www.politico.com/news/2020/03/10/judges-rule-democrats-should-get-mueller-evidence-125008"], ["url_image", "https://static.politico.com/62/a5/814e9ab9428390ffdf7a7206cedf/200310-bobby-three-sticks-gty-773.jpg"], ["author", "Josh Gerstein"], ["title", "Judges rule Democrats should get Mueller evidence"], ["description", "It's a major win for House Democrats seeking to obtain more information from the Russia probe."], ["published_date", "2020-03-10"], ["created_at", "2020-03-26 05:40:24.212772"], ["updated_at", "2020-03-26 05:40:24.212772"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/articles" for ::1 at 2020-03-25 23:40:28 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.4ms | Allocations: 2095)
+
+
+  [1m[35m (1.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.6ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 361]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.4ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 362]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.6ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 363]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.5ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 364]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.9ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 365]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (1.6ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 366]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (1.6ms)[0m  [1m[32mINSERT INTO "articles" ("source", "source_url", "url_image", "author", "title", "description", "published_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["source", "Androidcentral.com"], ["source_url", "https://www.androidcentral.com/what-are-your-favorite-pixel-features"], ["url_image", "https://www.androidcentral.com/sites/androidcentral.com/files/styles/large/public/article_images/2019/10/pixel-4-xl-vs-3-xl-white-backs-2.jpg?itok=eH6iMnP9"], ["author", "Joe Maring"], ["title", "What are your favorite Pixel features?"], ["description", "Having a chat with the AC forums. To say that Google's Pixel phones aren't perfect shouldn't come as a surprise to anyone. While the Pixel lineup is something we look forward to every year, there's no doubt that Google tends to fall behind its competitors in …"], ["published_date", "2020-03-20"], ["created_at", "2020-03-26 05:41:21.057131"], ["updated_at", "2020-03-26 05:41:21.057131"]]
+  [1m[35m (4.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.4ms)[0m  [1m[32mINSERT INTO "articles" ("source", "source_url", "url_image", "author", "title", "description", "published_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["source", "9to5mac.com"], ["source_url", "https://9to5mac.com/2020/03/20/9to5mac-happy-hour-269/"], ["url_image", "https://9to5mac.com/wp-content/uploads/sites/6/2018/04/9to5mac-happy-hour-lead1.jpg?quality=82&strip=all"], ["author", "Zac Hall"], ["title", "9to5Mac Happy Hour 269: 2020 MacBook Air, iPad Pro with trackpad, iOS 13.4"], ["description", "Benjamin and Zac unpack new releases from Apple including a cheaper and improved MacBook Air, Mac mini storage upgrades, the new 2020 iPad Pro model, iOS 13.4 and trackpad support coming to iPad, the new Magic Keyboard coming in May, Beats Powerbeats debut, a…"], ["published_date", "2020-03-20"], ["created_at", "2020-03-26 05:41:21.068846"], ["updated_at", "2020-03-26 05:41:21.068846"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.5ms)[0m  [1m[32mINSERT INTO "articles" ("source", "source_url", "url_image", "author", "title", "description", "published_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["source", "Detroitnews.com"], ["source_url", "https://www.detroitnews.com/story/entertainment/movies/2020/03/15/movie-ticket-sales-dive-coronavirus-covid/111428098/"], ["url_image", "https://www.gannett-cdn.com/presto/2019/11/19/PDTN/22d91e89-cf1c-430b-963c-1936e022c45b-tdndc5-6k71dazxogn4i08dbmp_original.jpg?crop=4255,2394,x0,y141&width=3200&height=1680&fit=bounds"], ["author", "Jake Coyle"], ["title", "Movie ticket sales dive at box office; lowest turnout in 20 years - The Detroit News"], ["description", "Not since 2000 has weekend box office revenue been so low, according Comscore, when $54.5 million in tickets were sold on a quiet September weekend"], ["published_date", "2020-03-16"], ["created_at", "2020-03-26 05:41:21.077213"], ["updated_at", "2020-03-26 05:41:21.077213"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (1.5ms)[0m  [1m[32mINSERT INTO "articles" ("source", "source_url", "url_image", "author", "title", "description", "published_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["source", "USA Today"], ["source_url", "https://www.usatoday.com/story/opinion/2020/03/10/pardon-commuting-sentence-medicare-fraudster-judith-negron-donald-trump-column/4994494002/"], ["url_image", "https://www.gannett-cdn.com/presto/2020/03/09/USAT/2054b1bd-c395-4e91-b9a9-5486522e2f2e-AP_Trump_Clemency.JPG?crop=3601,2026,x0,y88&width=3200&height=1680&fit=bounds"], ["author", "USA TODAY, Paul E. Pelletier, Opinion contributor"], ["title", "Commuting the sentence of a Medicare fraudster? An unwise move by President Trump."], ["description", "Judith Negron took advantage of the elderly and stole millions of dollars from taxpayers. Should she get a second chance?"], ["published_date", "2020-03-10"], ["created_at", "2020-03-26 05:41:21.086208"], ["updated_at", "2020-03-26 05:41:21.086208"]]
+  [1m[35m (1.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.6ms)[0m  [1m[32mINSERT INTO "articles" ("source", "source_url", "url_image", "author", "title", "description", "published_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["source", "USA Today"], ["source_url", "https://www.usatoday.com/story/news/weather/2020/03/03/nashville-tornado-what-we-know-deadly-storms-hit-tennessee/4937297002/"], ["url_image", "https://www.gannett-cdn.com/presto/2020/03/03/USAT/19eabbf5-281f-4ed2-85f9-705d669eee53-XXX__LM55393.JPG?crop=3511,1975,x0,y173&width=3200&height=1680&fit=bounds"], ["author", "USA TODAY, N'dea Yancey-Bragg, Jason Gonzales, Juan Buitrago, Adam Tamburin and Joel Shannon, USA TODAY"], ["title", "What we know about the tornadoes that killed at least 22 people in Nashville, Middle Tennessee"], ["description", "Tornadoes killed multiple people in Tennessee as violent storms roared through the state late Monday and early Tuesday morning."], ["published_date", "2020-03-03"], ["created_at", "2020-03-26 05:41:21.094301"], ["updated_at", "2020-03-26 05:41:21.094301"]]
+  [1m[35m (6.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.5ms)[0m  [1m[32mINSERT INTO "articles" ("source", "source_url", "url_image", "author", "title", "description", "published_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["source", "Politico"], ["source_url", "https://www.politico.com/news/2020/03/10/judges-rule-democrats-should-get-mueller-evidence-125008"], ["url_image", "https://static.politico.com/62/a5/814e9ab9428390ffdf7a7206cedf/200310-bobby-three-sticks-gty-773.jpg"], ["author", "Josh Gerstein"], ["title", "Judges rule Democrats should get Mueller evidence"], ["description", "It's a major win for House Democrats seeking to obtain more information from the Russia probe."], ["published_date", "2020-03-10"], ["created_at", "2020-03-26 05:41:21.108303"], ["updated_at", "2020-03-26 05:41:21.108303"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.6ms)[0m  [1m[32mINSERT INTO "articles" ("source", "source_url", "url_image", "author", "title", "description", "published_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["source", "9to5mac.com"], ["source_url", "https://9to5mac.com/2020/03/08/top-stories-14-inch-macbook-pro/"], ["url_image", "https://9to5mac.com/wp-content/uploads/sites/6/2019/03/top-stories-header-steeber.jpg?resize=1024,576"], ["author", "Chance Miller"], ["title", "This week’s top stories: 14-inch MacBook Pro rumors, Apple settles throttling lawsuit, more"], ["description", "In this week’s top stories: Ming-Chi Kuo details Apple’s 2020 hardware plans, Apple settles the iPhone throttling lawsuit, new Mac mini and iMac rumors, and more. Read on for all of this week’s biggest news. more… The post This week’s top stories: 14-inch Mac…"], ["published_date", "2020-03-08"], ["created_at", "2020-03-26 05:41:21.121833"], ["updated_at", "2020-03-26 05:41:21.121833"]]
+  [1m[35m (2.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.4ms)[0m  [1m[32mINSERT INTO "articles" ("source", "source_url", "url_image", "author", "title", "description", "published_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["source", "USA Today"], ["source_url", "https://www.usatoday.com/story/news/2020/03/02/man-sentenced-cyberstalking-parkland-shooting-victims-families/4934952002/"], ["url_image", "https://www.gannett-cdn.com/presto/2020/03/03/USAT/1d0fd09f-3bdf-4231-8d4b-111ad208c3f2-AP_School_Shooting_Florida_Cyberstalking.JPG?crop=3779,2126,x0,y217&width=3200&height=1680&fit=bounds"], ["author", "USA TODAY, Chelsey Cox, USA TODAY"], ["title", "California man who cyber-stalked Parkland victims' families, friends gets 66-month sentence"], ["description", "Brandon Michael Fleury, 22, taunted and threatened to kidnap families and friends tied to the Marjory Stoneman Douglas High shooting victims."], ["published_date", "2020-03-03"], ["created_at", "2020-03-26 05:41:21.130877"], ["updated_at", "2020-03-26 05:41:21.130877"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.4ms)[0m  [1m[32mINSERT INTO "articles" ("source", "source_url", "url_image", "author", "title", "description", "published_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["source", "Elespanol.com"], ["source_url", "https://vandal.elespanol.com/noticia/1350732214/nintendo-eshop-recibe-nuevos-descuentos-ofertas-y-rebajas-en-multiples-videojuegos/"], ["url_image", "https://media.vandal.net/i/1200x630/2-2020/202022819262419_1.jpg"], ["author", "Alberto González"], ["title", "Nintendo eShop recibe nuevos descuentos, ofertas y rebajas en múltiples videojuegos"], ["description", "<!--cache-->Sagas como DOOM estrenan grandes precios, y videojuegos como Fire Emblem, GOD EATER o Mega Man estrenan precios especiales. En Vandal os mostramos toda la promoción. Nintendo, como cada semana, ha actualizado la eShop digital de Nintendo Switch co…"], ["published_date", "2020-02-28"], ["created_at", "2020-03-26 05:41:21.138721"], ["updated_at", "2020-03-26 05:41:21.138721"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.4ms)[0m  [1m[32mINSERT INTO "articles" ("source", "source_url", "url_image", "author", "title", "description", "published_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["source", "USA Today"], ["source_url", "https://www.usatoday.com/story/opinion/2020/03/04/elizabeth-warren-unite-left-endorse-bernie-sanders-column/4954134002/"], ["url_image", "https://www.gannett-cdn.com/presto/2020/03/04/USAT/1fd3ea87-ae9a-4e57-ae26-4e36b09fff0e-liz_bernie.JPG?crop=3945,2219,x0,y200&width=3200&height=1680&fit=bounds"], ["author", "USA TODAY, Connor Turque, Opinion contributor"], ["title", "Warren has the chance to unite the left by endorsing Sanders. She should take it."], ["description", "It isn't just Bernie Sanders' supporters who say there's no path to the nomination for Elizabeth Warren. It's not sexism, either. It's math."], ["published_date", "2020-03-04"], ["created_at", "2020-03-26 05:41:21.145145"], ["updated_at", "2020-03-26 05:41:21.145145"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.4ms)[0m  [1m[32mINSERT INTO "articles" ("source", "source_url", "url_image", "author", "title", "description", "published_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["source", "Sciencemag.org"], ["source_url", "https://science.sciencemag.org/content/367/6482/1083.2.full"], ["url_image", "https://science.sciencemag.org/sites/default/files/highwire/sci/367/6482.cover-source.gif"], ["author", "Laikre, L., Hoban, S., Bruford, M. W., Segelbacher, G., Allendorf, F. W., Gajardo, G., Rodriguez, A. G., Hedrick, P. W., Heuertz, M., Hohenlohe, P. A., Jaffe, R., Johannesson, K., Liggins, L., MacDonald, A. J., OrozcoterWengel, P., Reusch, T. B. H., Rodriguez-Correa, H., Russo, I.-R. M., Ryman, N., Vernesi, C."], ["title", "Post-2020 goals overlook genetic diversity"], ["description", "In January, the secretariat of the Convention on Biological Diversity (CBD) released the first draft of a post-2020 global biodiversity framework with goals and targets for biodiversity ([ 1 ][1], [ 2 ][2]). We are deeply concerned that the goal suggested for…"], ["published_date", "2020-03-05"], ["created_at", "2020-03-26 05:41:21.151360"], ["updated_at", "2020-03-26 05:41:21.151360"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.5ms)[0m  [1m[32mINSERT INTO "articles" ("source", "source_url", "url_image", "author", "title", "description", "published_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["source", "Hypebeast.com"], ["source_url", "https://hypebeast.com/2020/2/aldo-bakker-slow-motion-carpenters-workshop-gallery-paris-exhibition"], ["url_image", "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2020%2F02%2Faldo-bakker-slow-motion-carpenters-workshop-gallery-paris-exhibition-tw.jpg?w=960&cbr=1&q=90&fit=max"], ["author", "info@hypebeast.com (HYPEBEAST), HYPEBEAST"], ["title", "Aldo Bakker's Urushi & Stone Works Come to Life in Paris Exhibition"], ["description", "Dutch artist Aldo Bakker is bringing new works and editions to Paris' Carpenters Workshop Gallery next month. \"Slow Motion\" displays a range of Bakker's ambiguous objects, crossing the boundaries between art and design; form and function. Objects such as Weig…"], ["published_date", "2020-02-25"], ["created_at", "2020-03-26 05:41:21.157989"], ["updated_at", "2020-03-26 05:41:21.157989"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/articles" for ::1 at 2020-03-25 23:41:23 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 13ms (Views: 7.0ms | ActiveRecord: 0.4ms | Allocations: 3454)
+
+
