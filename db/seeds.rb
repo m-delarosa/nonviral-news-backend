@@ -1,8 +1,8 @@
-require 'rest-client'
-# require 'pry'
-require 'date'
+# require 'rest-client'
+# # require 'pry'
+# require 'date'
 
-Article.destroy_all
+# Article.destroy_all
 
 # Article.create(
 #     source: "Google",
@@ -15,33 +15,33 @@ Article.destroy_all
 #     )
 
 
-two_days_ago = (Date.today - 2).iso8601
+# two_days_ago = (Date.today - 2).iso8601
 
-response = RestClient.get(
-    "http://newsapi.org/v2/everything?q=from=#{Date.today}&to=#{two_days_ago}&language=en&pageSize=20&apiKey=33d9acb0b508450cb16344a38197e3e7")
+# response = RestClient.get(
+#     "http://newsapi.org/v2/everything?q=from=#{Date.today}&to=#{two_days_ago}&language=en&pageSize=20&apiKey=33d9acb0b508450cb16344a38197e3e7")
  
-    result = JSON.parse(response)
+#     result = JSON.parse(response)
     
-    result['articles'].each do |article|
+#     result['articles'].each do |article|
 
-    corona_test = article['description'].downcase.include? "corona"
-    coronavirus_test = article['description'].downcase.include? "coronavirus"
-    covid_test = article['description'].downcase.include? "covid-19"
+#     corona_test = article['description'].downcase.include? "corona"
+#     coronavirus_test = article['description'].downcase.include? "coronavirus"
+#     covid_test = article['description'].downcase.include? "covid-19"
 
-    corona_test_title = article['title'].downcase.include? "corona"
-    coronavirus_test_title = article['title'].downcase.include? "coronavirus"
-    covid_test_title = article['title'].downcase.include? "covid-19"
+#     corona_test_title = article['title'].downcase.include? "corona"
+#     coronavirus_test_title = article['title'].downcase.include? "coronavirus"
+#     covid_test_title = article['title'].downcase.include? "covid-19"
     
-if !corona_test && !coronavirus_test && !covid_test && !corona_test_title && !coronavirus_test_title && !covid_test_title && article['urlToImage']
+# if !corona_test && !coronavirus_test && !covid_test && !corona_test_title && !coronavirus_test_title && !covid_test_title && article['urlToImage']
 
-        Article.create(
-            source: article['source']['name'],
-            source_url: article['url'],
-            url_image: article['urlToImage'],
-            author: article['author'],
-            title: article['title'].titlecase,
-            description: article['description'],
-            published_date: article['publishedAt'][/[^T]+/]
-            )
-    end
- end
+#         Article.create(
+#             source: article['source']['name'],
+#             source_url: article['url'],
+#             url_image: article['urlToImage'],
+#             author: article['author'],
+#             title: article['title'].titlecase,
+#             description: article['description'],
+#             published_date: article['publishedAt'][/[^T]+/]
+#             )
+#     end
+#  end
