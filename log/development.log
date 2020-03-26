@@ -3542,3 +3542,202 @@ Processing by ArticlesController#index as */*
 Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.3ms | Allocations: 3454)
 
 
+Started GET "/articles" for ::1 at 2020-03-26 09:50:14 -0600
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (2.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 23ms (Views: 17.7ms | ActiveRecord: 2.2ms | Allocations: 3482)
+
+
+Started GET "/articles" for ::1 at 2020-03-26 09:54:42 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 9ms (Views: 8.1ms | ActiveRecord: 0.3ms | Allocations: 3454)
+
+
+Started GET "/articles" for ::1 at 2020-03-26 13:17:02 -0600
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (13.9ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 70ms (Views: 50.4ms | ActiveRecord: 13.9ms | Allocations: 3483)
+
+
+Started GET "/articles" for ::1 at 2020-03-26 13:17:30 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.8ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 35ms (Views: 33.3ms | ActiveRecord: 0.8ms | Allocations: 3454)
+
+
+Started GET "/articles" for ::1 at 2020-03-26 13:39:27 -0600
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (43.9ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 157ms (Views: 107.0ms | ActiveRecord: 43.9ms | Allocations: 3482)
+
+
+Started GET "/articles" for ::1 at 2020-03-26 13:47:59 -0600
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (2.8ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 33ms (Views: 27.9ms | ActiveRecord: 2.8ms | Allocations: 3482)
+
+
+Started GET "/articles" for ::1 at 2020-03-26 13:48:15 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 26ms (Views: 23.4ms | ActiveRecord: 0.4ms | Allocations: 3454)
+
+
+Started GET "/articles" for ::1 at 2020-03-26 15:29:03 -0600
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+SyntaxError (/Users/mikedelarosa/flatiron/mod2/mod2_project/nonviral-news-backend/app/controllers/articles_controller.rb:28: syntax error, unexpected '|', expecting '}'
+...esult['articles'].select do { |article| test }
+...                              ^
+/Users/mikedelarosa/flatiron/mod2/mod2_project/nonviral-news-backend/app/controllers/articles_controller.rb:28: syntax error, unexpected '}', expecting end
+...'].select do { |article| test }
+...                              ^):
+  
+app/controllers/articles_controller.rb:28: syntax error, unexpected '|', expecting '}'
+app/controllers/articles_controller.rb:28: syntax error, unexpected '}', expecting end
+app/controllers/articles_controller.rb:28: syntax error, unexpected '|', expecting '}'
+app/controllers/articles_controller.rb:28: syntax error, unexpected '}', expecting end
+Started GET "/articles" for ::1 at 2020-03-26 15:29:54 -0600
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ArticlesController#index as */*
+Completed 500 Internal Server Error in 25473ms (ActiveRecord: 0.0ms | Allocations: 62946)
+
+
+  
+SystemExit (exit):
+  
+(byebug):1:in `exit'
+(byebug):1:in `index'
+app/controllers/articles_controller.rb:30:in `index'
+Started GET "/articles" for ::1 at 2020-03-26 15:31:03 -0600
+  [1m[35m (8.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (11.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ArticlesController#index as */*
+Completed 204 No Content in 50096ms (ActiveRecord: 0.0ms | Allocations: 137862)
+
+
+Started GET "/articles" for ::1 at 2020-03-26 15:32:29 -0600
+  [1m[35m (3.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ArticlesController#index as */*
+Started GET "/articles" for ::1 at 2020-03-26 15:38:37 -0600
+  [1m[35m (3.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+SyntaxError (/Users/mikedelarosa/flatiron/mod2/mod2_project/nonviral-news-backend/app/controllers/articles_controller.rb:27: syntax error, unexpected '|', expecting '}'
+...esult['articles'].select do { |article| test }
+...                              ^
+/Users/mikedelarosa/flatiron/mod2/mod2_project/nonviral-news-backend/app/controllers/articles_controller.rb:27: syntax error, unexpected '}', expecting end
+...'].select do { |article| test }
+...                              ^):
+  
+app/controllers/articles_controller.rb:27: syntax error, unexpected '|', expecting '}'
+app/controllers/articles_controller.rb:27: syntax error, unexpected '}', expecting end
+app/controllers/articles_controller.rb:27: syntax error, unexpected '|', expecting '}'
+app/controllers/articles_controller.rb:27: syntax error, unexpected '}', expecting end
+Started GET "/articles" for ::1 at 2020-03-26 15:39:05 -0600
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ArticlesController#index as */*
+Completed 500 Internal Server Error in 971ms (ActiveRecord: 0.0ms | Allocations: 73092)
+
+
+  
+NameError (undefined local variable or method `article' for #<ArticlesController:0x00007fef8edec828>
+Did you mean?  articles):
+  
+app/controllers/articles_controller.rb:17:in `index'
+Started GET "/articles" for ::1 at 2020-03-26 15:46:01 -0600
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ArticlesController#index as */*
+Completed 500 Internal Server Error in 856ms (ActiveRecord: 0.0ms | Allocations: 72439)
+
+
+  
+NameError (undefined local variable or method `article' for #<ArticlesController:0x00007fef8d974170>
+Did you mean?  articles):
+  
+app/controllers/articles_controller.rb:15:in `index'
+Started GET "/articles" for ::1 at 2020-03-26 15:46:27 -0600
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ArticlesController#index as */*
+Completed 500 Internal Server Error in 991ms (ActiveRecord: 0.0ms | Allocations: 72534)
+
+
+  
+NameError (undefined local variable or method `article' for #<ArticlesController:0x00007fef8e9bbf88>
+Did you mean?  articles):
+  
+app/controllers/articles_controller.rb:15:in `index'
+Started GET "/articles" for ::1 at 2020-03-26 15:49:37 -0600
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+SyntaxError (/Users/mikedelarosa/flatiron/mod2/mod2_project/nonviral-news-backend/app/controllers/articles_controller.rb:24: syntax error, unexpected tSTRING_DEND, expecting end
+...itle && article['urlToImage'] }
+...                              ^):
+  
+app/controllers/articles_controller.rb:24: syntax error, unexpected tSTRING_DEND, expecting end
+app/controllers/articles_controller.rb:24: syntax error, unexpected tSTRING_DEND, expecting end
+Started GET "/articles" for ::1 at 2020-03-26 15:50:13 -0600
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ArticlesController#index as */*
+Completed 200 OK in 371ms (Views: 2.9ms | ActiveRecord: 0.0ms | Allocations: 4321)
+
+
+Started GET "/articles" for ::1 at 2020-03-26 15:53:51 -0600
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ArticlesController#index as */*
+Completed 200 OK in 493ms (Views: 1.7ms | ActiveRecord: 0.0ms | Allocations: 5415)
+
+
+Started GET "/articles" for ::1 at 2020-03-26 15:57:55 -0600
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+SyntaxError (/Users/mikedelarosa/flatiron/mod2/mod2_project/nonviral-news-backend/app/controllers/articles_controller.rb:27: syntax error, unexpected &&, expecting end
+            && !coronavirus_test_title && !...
+            ^~
+/Users/mikedelarosa/flatiron/mod2/mod2_project/nonviral-news-backend/app/controllers/articles_controller.rb:28: syntax error, unexpected &&, expecting end
+            && !pandemic_test && !quarantin...
+            ^~
+/Users/mikedelarosa/flatiron/mod2/mod2_project/nonviral-news-backend/app/controllers/articles_controller.rb:59: syntax error, unexpected end, expecting end-of-input):
+  
+app/controllers/articles_controller.rb:27: syntax error, unexpected &&, expecting end
+app/controllers/articles_controller.rb:28: syntax error, unexpected &&, expecting end
+app/controllers/articles_controller.rb:59: syntax error, unexpected end, expecting end-of-input
+app/controllers/articles_controller.rb:27: syntax error, unexpected &&, expecting end
+app/controllers/articles_controller.rb:28: syntax error, unexpected &&, expecting end
+app/controllers/articles_controller.rb:59: syntax error, unexpected end, expecting end-of-input
+Started GET "/articles" for ::1 at 2020-03-26 15:58:40 -0600
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ArticlesController#index as */*
+Completed 200 OK in 250ms (Views: 1.3ms | ActiveRecord: 0.0ms | Allocations: 5220)
+
+
+Started GET "/articles" for ::1 at 2020-03-26 16:00:29 -0600
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ArticlesController#index as */*
+Completed 200 OK in 539ms (Views: 2.7ms | ActiveRecord: 0.0ms | Allocations: 5238)
+
+
+Started GET "/articles" for ::1 at 2020-03-26 16:01:48 -0600
+Processing by ArticlesController#index as HTML
+Completed 200 OK in 392ms (Views: 1.7ms | ActiveRecord: 0.0ms | Allocations: 5322)
+
+
+Started GET "/articles" for ::1 at 2020-03-26 16:03:33 -0600
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ArticlesController#index as */*
+Completed 200 OK in 417ms (Views: 1.9ms | ActiveRecord: 0.0ms | Allocations: 4678)
+
+
