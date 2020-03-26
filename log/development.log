@@ -3452,3 +3452,93 @@ Processing by ArticlesController#index as */*
 Completed 200 OK in 13ms (Views: 7.0ms | ActiveRecord: 0.4ms | Allocations: 3454)
 
 
+Started GET "/articles" for ::1 at 2020-03-25 23:44:48 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 10ms (Views: 9.6ms | ActiveRecord: 0.3ms | Allocations: 3454)
+
+
+  [1m[35m (1.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.7ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 367]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.4ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 368]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.3ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 369]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.5ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 370]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.3ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 371]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.8ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 372]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.5ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 373]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.3ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 374]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.4ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 375]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.4ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 376]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.4ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 377]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.5ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 378]]
+  [1m[35m (1.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.7ms)[0m  [1m[32mINSERT INTO "articles" ("source", "source_url", "url_image", "author", "title", "description", "published_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["source", "Androidcentral.com"], ["source_url", "https://www.androidcentral.com/what-are-your-favorite-pixel-features"], ["url_image", "https://www.androidcentral.com/sites/androidcentral.com/files/styles/large/public/article_images/2019/10/pixel-4-xl-vs-3-xl-white-backs-2.jpg?itok=eH6iMnP9"], ["author", "Joe Maring"], ["title", "What Are Your Favorite Pixel Features?"], ["description", "Having a chat with the AC forums. To say that Google's Pixel phones aren't perfect shouldn't come as a surprise to anyone. While the Pixel lineup is something we look forward to every year, there's no doubt that Google tends to fall behind its competitors in …"], ["published_date", "2020-03-20"], ["created_at", "2020-03-26 05:45:03.665791"], ["updated_at", "2020-03-26 05:45:03.665791"]]
+  [1m[35m (2.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.5ms)[0m  [1m[32mINSERT INTO "articles" ("source", "source_url", "url_image", "author", "title", "description", "published_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["source", "9to5mac.com"], ["source_url", "https://9to5mac.com/2020/03/20/9to5mac-happy-hour-269/"], ["url_image", "https://9to5mac.com/wp-content/uploads/sites/6/2018/04/9to5mac-happy-hour-lead1.jpg?quality=82&strip=all"], ["author", "Zac Hall"], ["title", "9to5 Mac Happy Hour 269: 2020 Mac Book Air, I Pad Pro With Trackpad, I Os 13.4"], ["description", "Benjamin and Zac unpack new releases from Apple including a cheaper and improved MacBook Air, Mac mini storage upgrades, the new 2020 iPad Pro model, iOS 13.4 and trackpad support coming to iPad, the new Magic Keyboard coming in May, Beats Powerbeats debut, a…"], ["published_date", "2020-03-20"], ["created_at", "2020-03-26 05:45:03.674652"], ["updated_at", "2020-03-26 05:45:03.674652"]]
+  [1m[35m (1.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.5ms)[0m  [1m[32mINSERT INTO "articles" ("source", "source_url", "url_image", "author", "title", "description", "published_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["source", "Detroitnews.com"], ["source_url", "https://www.detroitnews.com/story/entertainment/movies/2020/03/15/movie-ticket-sales-dive-coronavirus-covid/111428098/"], ["url_image", "https://www.gannett-cdn.com/presto/2019/11/19/PDTN/22d91e89-cf1c-430b-963c-1936e022c45b-tdndc5-6k71dazxogn4i08dbmp_original.jpg?crop=4255,2394,x0,y141&width=3200&height=1680&fit=bounds"], ["author", "Jake Coyle"], ["title", "Movie Ticket Sales Dive At Box Office; Lowest Turnout In 20 Years   The Detroit News"], ["description", "Not since 2000 has weekend box office revenue been so low, according Comscore, when $54.5 million in tickets were sold on a quiet September weekend"], ["published_date", "2020-03-16"], ["created_at", "2020-03-26 05:45:03.683387"], ["updated_at", "2020-03-26 05:45:03.683387"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.6ms)[0m  [1m[32mINSERT INTO "articles" ("source", "source_url", "url_image", "author", "title", "description", "published_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["source", "USA Today"], ["source_url", "https://www.usatoday.com/story/opinion/2020/03/10/pardon-commuting-sentence-medicare-fraudster-judith-negron-donald-trump-column/4994494002/"], ["url_image", "https://www.gannett-cdn.com/presto/2020/03/09/USAT/2054b1bd-c395-4e91-b9a9-5486522e2f2e-AP_Trump_Clemency.JPG?crop=3601,2026,x0,y88&width=3200&height=1680&fit=bounds"], ["author", "USA TODAY, Paul E. Pelletier, Opinion contributor"], ["title", "Commuting The Sentence Of A Medicare Fraudster? An Unwise Move By President Trump."], ["description", "Judith Negron took advantage of the elderly and stole millions of dollars from taxpayers. Should she get a second chance?"], ["published_date", "2020-03-10"], ["created_at", "2020-03-26 05:45:03.689186"], ["updated_at", "2020-03-26 05:45:03.689186"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.6ms)[0m  [1m[32mINSERT INTO "articles" ("source", "source_url", "url_image", "author", "title", "description", "published_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["source", "USA Today"], ["source_url", "https://www.usatoday.com/story/news/weather/2020/03/03/nashville-tornado-what-we-know-deadly-storms-hit-tennessee/4937297002/"], ["url_image", "https://www.gannett-cdn.com/presto/2020/03/03/USAT/19eabbf5-281f-4ed2-85f9-705d669eee53-XXX__LM55393.JPG?crop=3511,1975,x0,y173&width=3200&height=1680&fit=bounds"], ["author", "USA TODAY, N'dea Yancey-Bragg, Jason Gonzales, Juan Buitrago, Adam Tamburin and Joel Shannon, USA TODAY"], ["title", "What We Know About The Tornadoes That Killed At Least 22 People In Nashville, Middle Tennessee"], ["description", "Tornadoes killed multiple people in Tennessee as violent storms roared through the state late Monday and early Tuesday morning."], ["published_date", "2020-03-03"], ["created_at", "2020-03-26 05:45:03.694731"], ["updated_at", "2020-03-26 05:45:03.694731"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.5ms)[0m  [1m[32mINSERT INTO "articles" ("source", "source_url", "url_image", "author", "title", "description", "published_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["source", "Politico"], ["source_url", "https://www.politico.com/news/2020/03/10/judges-rule-democrats-should-get-mueller-evidence-125008"], ["url_image", "https://static.politico.com/62/a5/814e9ab9428390ffdf7a7206cedf/200310-bobby-three-sticks-gty-773.jpg"], ["author", "Josh Gerstein"], ["title", "Judges Rule Democrats Should Get Mueller Evidence"], ["description", "It's a major win for House Democrats seeking to obtain more information from the Russia probe."], ["published_date", "2020-03-10"], ["created_at", "2020-03-26 05:45:03.700151"], ["updated_at", "2020-03-26 05:45:03.700151"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.5ms)[0m  [1m[32mINSERT INTO "articles" ("source", "source_url", "url_image", "author", "title", "description", "published_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["source", "9to5mac.com"], ["source_url", "https://9to5mac.com/2020/03/08/top-stories-14-inch-macbook-pro/"], ["url_image", "https://9to5mac.com/wp-content/uploads/sites/6/2019/03/top-stories-header-steeber.jpg?resize=1024,576"], ["author", "Chance Miller"], ["title", "This Week’s Top Stories: 14 Inch Mac Book Pro Rumors, Apple Settles Throttling Lawsuit, More"], ["description", "In this week’s top stories: Ming-Chi Kuo details Apple’s 2020 hardware plans, Apple settles the iPhone throttling lawsuit, new Mac mini and iMac rumors, and more. Read on for all of this week’s biggest news. more… The post This week’s top stories: 14-inch Mac…"], ["published_date", "2020-03-08"], ["created_at", "2020-03-26 05:45:03.706998"], ["updated_at", "2020-03-26 05:45:03.706998"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.5ms)[0m  [1m[32mINSERT INTO "articles" ("source", "source_url", "url_image", "author", "title", "description", "published_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["source", "USA Today"], ["source_url", "https://www.usatoday.com/story/news/2020/03/02/man-sentenced-cyberstalking-parkland-shooting-victims-families/4934952002/"], ["url_image", "https://www.gannett-cdn.com/presto/2020/03/03/USAT/1d0fd09f-3bdf-4231-8d4b-111ad208c3f2-AP_School_Shooting_Florida_Cyberstalking.JPG?crop=3779,2126,x0,y217&width=3200&height=1680&fit=bounds"], ["author", "USA TODAY, Chelsey Cox, USA TODAY"], ["title", "California Man Who Cyber Stalked Parkland Victims' Families, Friends Gets 66 Month Sentence"], ["description", "Brandon Michael Fleury, 22, taunted and threatened to kidnap families and friends tied to the Marjory Stoneman Douglas High shooting victims."], ["published_date", "2020-03-03"], ["created_at", "2020-03-26 05:45:03.712549"], ["updated_at", "2020-03-26 05:45:03.712549"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.5ms)[0m  [1m[32mINSERT INTO "articles" ("source", "source_url", "url_image", "author", "title", "description", "published_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["source", "Elespanol.com"], ["source_url", "https://vandal.elespanol.com/noticia/1350732214/nintendo-eshop-recibe-nuevos-descuentos-ofertas-y-rebajas-en-multiples-videojuegos/"], ["url_image", "https://media.vandal.net/i/1200x630/2-2020/202022819262419_1.jpg"], ["author", "Alberto González"], ["title", "Nintendo E Shop Recibe Nuevos Descuentos, Ofertas Y Rebajas En Múltiples Videojuegos"], ["description", "<!--cache-->Sagas como DOOM estrenan grandes precios, y videojuegos como Fire Emblem, GOD EATER o Mega Man estrenan precios especiales. En Vandal os mostramos toda la promoción. Nintendo, como cada semana, ha actualizado la eShop digital de Nintendo Switch co…"], ["published_date", "2020-02-28"], ["created_at", "2020-03-26 05:45:03.718186"], ["updated_at", "2020-03-26 05:45:03.718186"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.5ms)[0m  [1m[32mINSERT INTO "articles" ("source", "source_url", "url_image", "author", "title", "description", "published_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["source", "USA Today"], ["source_url", "https://www.usatoday.com/story/opinion/2020/03/04/elizabeth-warren-unite-left-endorse-bernie-sanders-column/4954134002/"], ["url_image", "https://www.gannett-cdn.com/presto/2020/03/04/USAT/1fd3ea87-ae9a-4e57-ae26-4e36b09fff0e-liz_bernie.JPG?crop=3945,2219,x0,y200&width=3200&height=1680&fit=bounds"], ["author", "USA TODAY, Connor Turque, Opinion contributor"], ["title", "Warren Has The Chance To Unite The Left By Endorsing Sanders. She Should Take It."], ["description", "It isn't just Bernie Sanders' supporters who say there's no path to the nomination for Elizabeth Warren. It's not sexism, either. It's math."], ["published_date", "2020-03-04"], ["created_at", "2020-03-26 05:45:03.723523"], ["updated_at", "2020-03-26 05:45:03.723523"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.5ms)[0m  [1m[32mINSERT INTO "articles" ("source", "source_url", "url_image", "author", "title", "description", "published_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["source", "Sciencemag.org"], ["source_url", "https://science.sciencemag.org/content/367/6482/1083.2.full"], ["url_image", "https://science.sciencemag.org/sites/default/files/highwire/sci/367/6482.cover-source.gif"], ["author", "Laikre, L., Hoban, S., Bruford, M. W., Segelbacher, G., Allendorf, F. W., Gajardo, G., Rodriguez, A. G., Hedrick, P. W., Heuertz, M., Hohenlohe, P. A., Jaffe, R., Johannesson, K., Liggins, L., MacDonald, A. J., OrozcoterWengel, P., Reusch, T. B. H., Rodriguez-Correa, H., Russo, I.-R. M., Ryman, N., Vernesi, C."], ["title", "Post 2020 Goals Overlook Genetic Diversity"], ["description", "In January, the secretariat of the Convention on Biological Diversity (CBD) released the first draft of a post-2020 global biodiversity framework with goals and targets for biodiversity ([ 1 ][1], [ 2 ][2]). We are deeply concerned that the goal suggested for…"], ["published_date", "2020-03-05"], ["created_at", "2020-03-26 05:45:03.730407"], ["updated_at", "2020-03-26 05:45:03.730407"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.6ms)[0m  [1m[32mINSERT INTO "articles" ("source", "source_url", "url_image", "author", "title", "description", "published_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["source", "Hypebeast.com"], ["source_url", "https://hypebeast.com/2020/2/aldo-bakker-slow-motion-carpenters-workshop-gallery-paris-exhibition"], ["url_image", "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2020%2F02%2Faldo-bakker-slow-motion-carpenters-workshop-gallery-paris-exhibition-tw.jpg?w=960&cbr=1&q=90&fit=max"], ["author", "info@hypebeast.com (HYPEBEAST), HYPEBEAST"], ["title", "Aldo Bakker's Urushi & Stone Works Come To Life In Paris Exhibition"], ["description", "Dutch artist Aldo Bakker is bringing new works and editions to Paris' Carpenters Workshop Gallery next month. \"Slow Motion\" displays a range of Bakker's ambiguous objects, crossing the boundaries between art and design; form and function. Objects such as Weig…"], ["published_date", "2020-02-25"], ["created_at", "2020-03-26 05:45:03.740391"], ["updated_at", "2020-03-26 05:45:03.740391"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/articles" for ::1 at 2020-03-25 23:45:07 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.3ms | Allocations: 3454)
+
+

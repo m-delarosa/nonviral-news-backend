@@ -39,7 +39,7 @@ if !corona_test && !coronavirus_test && !covid_test && !corona_test_title && !co
             source_url: article['url'],
             url_image: article['urlToImage'],
             author: article['author'],
-            title: article['title'],
+            title: article['title'].titlecase,
             description: article['description'],
             published_date: article['publishedAt'][/[^T]+/]
             )
