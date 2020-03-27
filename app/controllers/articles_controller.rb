@@ -23,10 +23,11 @@ class ArticlesController < ApplicationController
             pandemic_test = article['title'].downcase.include? "pandemic"
             quarantine_test = article['title'].downcase.include? "quarantine"
             espanol_test = article['source']['name'].include? "Elespanol.com"
+            quarantining_test = article['title'].downcase.include? "quarantining"
 
             
     
-            !corona_test && !coronavirus_test && !covid_test && !corona_test_title && !coronavirus_test_title && !covid_test_title && article['urlToImage'] && !pandemic_test && !quarantine_test && !espanol_test
+            !corona_test && !coronavirus_test && !covid_test && !corona_test_title && !coronavirus_test_title && !covid_test_title && article['urlToImage'] && !pandemic_test && !quarantine_test && !espanol_test && !quarantining_test
         end
 
         formatted_articles = articles.map do |article|
