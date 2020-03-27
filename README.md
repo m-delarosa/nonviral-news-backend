@@ -10,7 +10,7 @@ It's 2020, and the coronavirus has seemingly affected every aspect of our lives.
 
 ## Build status
 
-Iteration 0 deployed. Visit <a href="http://www.thenonviraltimes.com>www.thenonviraltimes.com</a>
+Iteration 0 deployed. Visit <a href="http://www.thenonviraltimes.com">www.thenonviraltimes.com</a>
 
 ## Tech/framework used
 
@@ -30,7 +30,7 @@ Iteration 0 deployed. Visit <a href="http://www.thenonviraltimes.com>www.thenonv
 
 ## Installation & Use
 
-Visit <a href="http://www.thenonviraltimes.com>www.thenonviraltimes.com</a>
+Visit <a href="http://www.thenonviraltimes.com">www.thenonviraltimes.com</a>
 
 or...
 
