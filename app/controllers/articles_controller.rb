@@ -33,17 +33,37 @@ class ArticlesController < ApplicationController
             corona_test_title = article['title'].downcase.include? "corona"
             coronavirus_test_title = article['title'].downcase.include? "coronavirus"
             covid_test_title = article['title'].downcase.include? "covid-19"
-            pandemic_test = article['title'].downcase.include? "pandemic"
-            quarantine_test = article['title'].downcase.include? "quarantine"
-            quarantining_test = article['title'].downcase.include? "quarantining"
-            social_distance_test = article['title'].downcase.include? "social distance"
-            social_distancing_test = article['title'].downcase.include? "social distancing"
-            lockdown_test = article['title'].downcase.include? "lockdown"
+            pandemic_test_title = article['title'].downcase.include? "pandemic"
+            quarantine_test_title = article['title'].downcase.include? "quarantine"
+            quarantining_test_title = article['title'].downcase.include? "quarantining"
+            social_distance_test_title = article['title'].downcase.include? "social distance"
+            social_distancing_test_title = article['title'].downcase.include? "social distancing"
+            lockdown_test_title = article['title'].downcase.include? "lockdown"
 
             espanol_test = article['source']['name'].include? "Elespanol.com"
+            indian_express_test = article['source']['name'].include? "Indianexpress.com"
+            
+            !corona_test &&
+            !coronavirus_test &&
+            !covid_test &&
+            !corona_test_title &&
+            !coronavirus_test_title &&
+            !covid_test_title &&
+            article['urlToImage'] && 
+            !pandemic_test && 
+            !quarantine_test && 
+            !espanol_test && 
+            !quarantining_test &&
+            !pandemic_test_title &&
+            !quarantine_test_title &&
+            !social_distance_test_title &&
+            !social_distancing_test_title &&
+            !lockdown_test_title &&
+            !social_distance_test &&
+            !social_distancing_test &&
+            !lockdown_test &&
+            !indian_express_test
 
-
-            !corona_test && !coronavirus_test && !covid_test && !corona_test_title && !coronavirus_test_title && !covid_test_title && article['urlToImage'] && !pandemic_test && !quarantine_test && !espanol_test && !quarantining_test
         end
 
         formatted_articles = coronafree_articles.map do |article|
