@@ -40,8 +40,10 @@ class ArticlesController < ApplicationController
             social_distancing_test_title = article['title'].downcase.include? "social distancing"
             lockdown_test_title = article['title'].downcase.include? "lockdown"
 
+            #Source Tests
             espanol_test = article['source']['name'].include? "Elespanol.com"
             indian_express_test = article['source']['name'].include? "Indianexpress.com"
+            livedoor_test = article['source']['name'].include? "Livedoor.jp"
             
             !corona_test &&
             !coronavirus_test &&
@@ -62,7 +64,8 @@ class ArticlesController < ApplicationController
             !social_distance_test &&
             !social_distancing_test &&
             !lockdown_test &&
-            !indian_express_test
+            !indian_express_test &&
+            !livedoor_test
 
         end
 
