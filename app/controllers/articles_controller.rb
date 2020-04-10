@@ -26,6 +26,8 @@ class ArticlesController < ApplicationController
             social_distance_test = article['description'].downcase.include? "social distance"
             social_distancing_test = article['description'].downcase.include? "social distancing"
             lockdown_test = article['description'].downcase.include? "lockdown"
+            shut_down_test = article['description'].downcase.include? "shut down"
+            shutdown_test = article['description'].downcase.include? "shutdown"
             
             
     
@@ -39,6 +41,8 @@ class ArticlesController < ApplicationController
             social_distance_test_title = article['title'].downcase.include? "social distance"
             social_distancing_test_title = article['title'].downcase.include? "social distancing"
             lockdown_test_title = article['title'].downcase.include? "lockdown"
+            shut_down_test = article['title'].downcase.include? "shut down"
+            shutdown_test = article['title'].downcase.include? "shutdown"
 
             #Source Tests
             espanol_test = article['source']['name'].include? "Elespanol.com"
