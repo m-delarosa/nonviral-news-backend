@@ -28,6 +28,8 @@ class ArticlesController < ApplicationController
             lockdown_test = article['description'].downcase.include? "lockdown"
             shut_down_test = article['description'].downcase.include? "shut down"
             shutdown_test = article['description'].downcase.include? "shutdown"
+            unemployment_test = article['description'].downcase.include? "unemployment"
+            
             
             
     
@@ -41,8 +43,9 @@ class ArticlesController < ApplicationController
             social_distance_test_title = article['title'].downcase.include? "social distance"
             social_distancing_test_title = article['title'].downcase.include? "social distancing"
             lockdown_test_title = article['title'].downcase.include? "lockdown"
-            shut_down_test = article['title'].downcase.include? "shut down"
-            shutdown_test = article['title'].downcase.include? "shutdown"
+            shut_down_test_title = article['title'].downcase.include? "shut down"
+            shutdown_test_title = article['title'].downcase.include? "shutdown"
+            unemployment_test_title = article['title'].downcase.include? "unemployment"
 
             #Source Tests
             espanol_test = article['source']['name'].include? "Elespanol.com"
@@ -69,7 +72,15 @@ class ArticlesController < ApplicationController
             !social_distancing_test &&
             !lockdown_test &&
             !indian_express_test &&
-            !livedoor_test
+            !livedoor_test &&
+            !shut_down_test &&
+            !shutdown_test &&
+            !unemployment_test &&
+            !shut_down_test_title &&
+            !shutdown_test_title &&
+            !unemployment_test_title
+
+
 
         end
 
