@@ -31,6 +31,7 @@ class ArticlesController < ApplicationController
             unemployment_test = article['description'].downcase.include? "unemployment"
             n95_test = article['description'].downcase.include? "n95"
             difficult_times_test = article['description'].downcase.include? "difficult times"
+            html_test = article['description'].downcase.include? "<a"
             
             
             
@@ -56,6 +57,7 @@ class ArticlesController < ApplicationController
             espanol_test = article['source']['name'].include? "Elespanol.com"
             indian_express_test = article['source']['name'].include? "Indianexpress.com"
             livedoor_test = article['source']['name'].include? "Livedoor.jp"
+
             
             !corona_test &&
             !coronavirus_test &&
@@ -87,7 +89,8 @@ class ArticlesController < ApplicationController
             !n95_test &&
             !n95_test_tile &&
             !difficult_times_test &&
-            !difficult_times_test_title
+            !difficult_times_test_title &&
+            !html_test
 
 
         end
