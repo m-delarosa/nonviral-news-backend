@@ -29,6 +29,9 @@ class ArticlesController < ApplicationController
             shut_down_test = article['description'].downcase.include? "shut down"
             shutdown_test = article['description'].downcase.include? "shutdown"
             unemployment_test = article['description'].downcase.include? "unemployment"
+            n95_test = article['description'].downcase.include? "n95"
+            difficult_times_test = article['description'].downcase.include? "difficult times"
+            
             
             
             
@@ -46,6 +49,8 @@ class ArticlesController < ApplicationController
             shut_down_test_title = article['title'].downcase.include? "shut down"
             shutdown_test_title = article['title'].downcase.include? "shutdown"
             unemployment_test_title = article['title'].downcase.include? "unemployment"
+            n95_test_tile = article['title'].downcase.include? "n95"
+            difficult_times_test_title = article['title'].downcase.include? "difficult times"
 
             #Source Tests
             espanol_test = article['source']['name'].include? "Elespanol.com"
@@ -78,7 +83,9 @@ class ArticlesController < ApplicationController
             !unemployment_test &&
             !shut_down_test_title &&
             !shutdown_test_title &&
-            !unemployment_test_title
+            !unemployment_test_title &&
+            !n95_test && !n95_test_tile
+            !difficult_times_test && !difficult_times_test_title
 
 
 
