@@ -84,9 +84,10 @@ class ArticlesController < ApplicationController
             !shut_down_test_title &&
             !shutdown_test_title &&
             !unemployment_test_title &&
-            !n95_test && !n95_test_tile
-            !difficult_times_test && !difficult_times_test_title
-
+            !n95_test &&
+            !n95_test_tile &&
+            !difficult_times_test &&
+            !difficult_times_test_title
 
 
         end
