@@ -1,8 +1,4 @@
 class ArticlesController < ApplicationController
-    # def index
-    #     @articles = Article.all
-    #     render json: @articles
-    # end
 
     def index
         two_days_ago = (Date.today - 2).iso8601
@@ -31,12 +27,12 @@ class ArticlesController < ApplicationController
             unemployment_test = article['description'].downcase.include? "unemployment"
             n95_test = article['description'].downcase.include? "n95"
             difficult_times_test = article['description'].downcase.include? "difficult times"
-            html_test = article['description'].downcase.include? "<a"
-            
-            
-            
-            
-    
+            a_test = article['description'].downcase.include? "<a>"
+            ol_test = article['description'].downcase.include? "<ol>"
+            li_test = article['description'].downcase.include? "<li>"
+            close_test = article['description'].downcase.include? "close"
+            reschedule_test = article['description'].downcase.include? "reschedule"
+
             #Title Tests
             corona_test_title = article['title'].downcase.include? "corona"
             coronavirus_test_title = article['title'].downcase.include? "coronavirus"
@@ -90,9 +86,11 @@ class ArticlesController < ApplicationController
             !n95_test_tile &&
             !difficult_times_test &&
             !difficult_times_test_title &&
-            !html_test
-
-
+            !a_test &&
+            !ol_test &&
+            !li_test &&
+            !close_test &&
+            !reschedule_test &&
         end
 
         formatted_articles = coronafree_articles.map do |article|
