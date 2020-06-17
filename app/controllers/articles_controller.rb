@@ -94,7 +94,9 @@ class ArticlesController < ApplicationController
             !li_test &&
             !close_test &&
             !reschedule_test &&
-            !reschedule_title_test
+            !reschedules_title_test &&
+            !graduation_test &&
+            !face_mask_test
         end
 
         formatted_articles = coronafree_articles.map do |article|
