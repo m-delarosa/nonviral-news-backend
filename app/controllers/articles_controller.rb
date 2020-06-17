@@ -90,7 +90,7 @@ class ArticlesController < ApplicationController
             !ol_test &&
             !li_test &&
             !close_test &&
-            !reschedule_test &&
+            !reschedule_test
         end
 
         formatted_articles = coronafree_articles.map do |article|
