@@ -32,6 +32,8 @@ class ArticlesController < ApplicationController
             li_test = article['description'].downcase.include? "<li>"
             close_test = article['description'].downcase.include? "close"
             reschedule_test = article['description'].downcase.include? "reschedule"
+            face_mask_test = article['description'].downcase.include? "face mask"
+            graduation_test = article['description'].downcase.include? "graduation"
 
             #Title Tests
             corona_test_title = article['title'].downcase.include? "corona"
@@ -48,7 +50,7 @@ class ArticlesController < ApplicationController
             unemployment_test_title = article['title'].downcase.include? "unemployment"
             n95_test_tile = article['title'].downcase.include? "n95"
             difficult_times_test_title = article['title'].downcase.include? "difficult times"
-            reschedule_title_test = article['description'].downcase.include? "reschedule"            
+            reschedules_title_test = article['description'].downcase.include? "reschedules"            
 
             #Source Tests
             espanol_test = article['source']['name'].include? "Elespanol.com"
