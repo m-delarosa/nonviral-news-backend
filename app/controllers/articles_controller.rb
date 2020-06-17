@@ -48,6 +48,7 @@ class ArticlesController < ApplicationController
             unemployment_test_title = article['title'].downcase.include? "unemployment"
             n95_test_tile = article['title'].downcase.include? "n95"
             difficult_times_test_title = article['title'].downcase.include? "difficult times"
+            reschedule_title_test = article['description'].downcase.include? "reschedule"            
 
             #Source Tests
             espanol_test = article['source']['name'].include? "Elespanol.com"
@@ -90,7 +91,8 @@ class ArticlesController < ApplicationController
             !ol_test &&
             !li_test &&
             !close_test &&
-            !reschedule_test
+            !reschedule_test &&
+            !reschedule_title_test
         end
 
         formatted_articles = coronafree_articles.map do |article|
