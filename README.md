@@ -1,4 +1,4 @@
-::Video link goes here::
+![Homepage Screenshot](screenshots/home_page.png)
 
 ## The Nonviral Times News App
 
@@ -10,7 +10,7 @@ It's 2020, and the coronavirus has seemingly affected every aspect of our lives.
 
 ## Build status
 
-Iteration 0 deployed. Visit <a href="http://www.thenonviraltimes.com">www.thenonviraltimes.com</a>
+Iteration 0 deployed. Visit <a href="http://www.nonviraltimes.com">www.nonviraltimes.com</a>
 
 ## Tech/framework used
 
