@@ -30,7 +30,7 @@ Iteration 0 deployed. Visit <a href="http://www.nonviraltimes.com">www.nonviralt
 
 ## Installation & Use
 
-Visit <a href="http://www.thenonviraltimes.com">www.thenonviraltimes.com</a>
+Visit <a href="http://www.nonviraltimes.com">www.nonviraltimes.com</a>
 
 or...
 
